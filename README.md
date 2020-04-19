@@ -1,13 +1,13 @@
 About r-polylabelr
 ==================
 
-Home: https://github.com/jolars/polylabelr
+Home: https://github.com/jolars/polylabelr, https://jolars.github.io/polylabelr
 
 Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: A wrapper around the C++ library  'polylabel' from 'Mapbox', providing an efficient routine for finding the approximate pole of inaccessibility of a polygon, which usually serves as an excellent candidate for labeling of a polygon.
+Summary: A wrapper around the C++ library 'polylabel' from 'Mapbox', providing an efficient routine for finding the approximate pole of inaccessibility of a polygon, which usually serves as an excellent candidate for labeling of a polygon.
 
 
 
@@ -176,11 +176,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
