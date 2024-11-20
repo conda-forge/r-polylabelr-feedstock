@@ -1,4 +1,4 @@
-{% set version = '0.2.0' %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/polylabelr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/polylabelr/polylabelr_{{ version }}.tar.gz
-  sha256: c27de763f847d2bcca794b61d2a07b06beeba1421b736bdae2dda25728d86205
+  sha256: 2c91066f540a900f34c4a31009b997bdd33a75335692e5d7a8fa60bd6015b9f3
 
 build:
-  number: 4
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -45,9 +45,7 @@ test:
 about:
   home: https://github.com/jolars/polylabelr, https://jolars.github.io/polylabelr
   license: MIT
-  summary: A wrapper around the C++ library 'polylabel' from 'Mapbox', providing an efficient
-    routine for finding the approximate pole of inaccessibility of a polygon, which
-    usually serves as an excellent candidate for labeling of a polygon.
+  summary: A wrapper around the C++ library 'polylabel' from 'Mapbox', providing an efficient routine for finding the approximate pole of inaccessibility of a polygon, which usually serves as an excellent candidate for labeling of a polygon.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
