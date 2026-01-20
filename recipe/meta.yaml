@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/polylabelr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/polylabelr/polylabelr_{{ version }}.tar.gz
-  sha256: 2c91066f540a900f34c4a31009b997bdd33a75335692e5d7a8fa60bd6015b9f3
+  sha256: 8a3c55682a30ef78a18d0c55f29320e73bd7e9b046dff8a06d26e90d691d3cd6
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
